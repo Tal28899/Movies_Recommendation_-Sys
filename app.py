@@ -11,8 +11,6 @@ BASE_DIR = os.path.dirname(__file__)   # project root on server
 movies_path = os.path.join(BASE_DIR, "movies.pkl")
 sim_path = os.path.join(BASE_DIR, "similarity.pkl")
 
-movies_list = pickle.load(open(movies_path, "rb"))
-similarity = pickle.load(open(sim_path, "rb"))
 
 # Load movies and similarity
 movies = pickle.load(open('movies.pkl','rb'))
